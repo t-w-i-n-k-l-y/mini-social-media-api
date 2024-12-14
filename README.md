@@ -1,6 +1,10 @@
 # mini-social-media-api
 The Mini Social Media API is a RESTful API that enables users to create, update, and interact with posts. This solution is designed to simulate core social media functionalities like adding posts, liking posts, and adding comments to posts. The API supports concurrency using mutexes to ensure thread-safe operations and maintain data integrity in a concurrent environment. Additionally, it provides simple pagination for retrieving posts, allowing users to fetch posts in manageable chunks using page and limit query parameters.
 
+Packages used: 
+- Gin: Selected for its performance and ease of use, with efficient routing and JSON handling.
+- Logrus: Used for structured logging to simplify debugging and track API's activity.
+
 ---
 
 ## Features
